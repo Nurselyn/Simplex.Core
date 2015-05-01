@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{96DA88B7-9022-4B10-AF03-41344129AA23}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5AEC396D-1083-454D-AB4A-32123F7CE4ED}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Simplex.Service", "src\Simplex.Service\Simplex.Service.xproj", "{BD12F411-3414-449C-9D98-F7AFF6A4D493}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Simplex.Resource", "src\Simplex.Resource\Simplex.Resource.xproj", "{EBB377DE-01EB-4699-B2DF-FC03E953C190}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Simplex.Eventing", "src\Simplex.Eventing\Simplex.Eventing.xproj", "{2785DD5B-BA89-4FFC-ABE1-09EB14AE47C5}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Simplex.Apllication", "src\Simplex.Apllication\Simplex.Apllication.xproj", "{30C8CD1B-AA6A-47DA-ADDA-86C8554B8835}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Simplex.Modularity", "src\Simplex.Modularity\Simplex.Modularity.xproj", "{7A73477D-AAE8-4897-9EA9-A193B75FF9E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD12F411-3414-449C-9D98-F7AFF6A4D493}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD12F411-3414-449C-9D98-F7AFF6A4D493}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD12F411-3414-449C-9D98-F7AFF6A4D493}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD12F411-3414-449C-9D98-F7AFF6A4D493}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBB377DE-01EB-4699-B2DF-FC03E953C190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBB377DE-01EB-4699-B2DF-FC03E953C190}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBB377DE-01EB-4699-B2DF-FC03E953C190}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBB377DE-01EB-4699-B2DF-FC03E953C190}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2785DD5B-BA89-4FFC-ABE1-09EB14AE47C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2785DD5B-BA89-4FFC-ABE1-09EB14AE47C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2785DD5B-BA89-4FFC-ABE1-09EB14AE47C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2785DD5B-BA89-4FFC-ABE1-09EB14AE47C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30C8CD1B-AA6A-47DA-ADDA-86C8554B8835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30C8CD1B-AA6A-47DA-ADDA-86C8554B8835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30C8CD1B-AA6A-47DA-ADDA-86C8554B8835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30C8CD1B-AA6A-47DA-ADDA-86C8554B8835}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A73477D-AAE8-4897-9EA9-A193B75FF9E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A73477D-AAE8-4897-9EA9-A193B75FF9E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A73477D-AAE8-4897-9EA9-A193B75FF9E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A73477D-AAE8-4897-9EA9-A193B75FF9E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BD12F411-3414-449C-9D98-F7AFF6A4D493} = {96DA88B7-9022-4B10-AF03-41344129AA23}
+		{EBB377DE-01EB-4699-B2DF-FC03E953C190} = {96DA88B7-9022-4B10-AF03-41344129AA23}
+		{2785DD5B-BA89-4FFC-ABE1-09EB14AE47C5} = {96DA88B7-9022-4B10-AF03-41344129AA23}
+		{30C8CD1B-AA6A-47DA-ADDA-86C8554B8835} = {96DA88B7-9022-4B10-AF03-41344129AA23}
+		{7A73477D-AAE8-4897-9EA9-A193B75FF9E7} = {96DA88B7-9022-4B10-AF03-41344129AA23}
+	EndGlobalSection
+EndGlobal

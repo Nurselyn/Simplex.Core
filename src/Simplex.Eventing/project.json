@@ -1,0 +1,14 @@
+{
+    "version": "0.0.1-apex",
+    "authors": [ "ggrnd0@gmail.com" ],
+
+    "dependencies": {
+        "System.Collections": "4.0.10-beta-22830",
+        "System.Runtime": "4.0.20-beta-22830"
+    },
+
+    "frameworks": {
+        "dnx451": { },
+        "dnxcore50": { }
+    }
+}

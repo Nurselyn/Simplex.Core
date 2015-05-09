@@ -1,7 +1,7 @@
 ﻿using Simplex.Service;
 using System;
 
-namespace Simplex.Apllication
+namespace Simplex.Application
 {
     public interface IApplicationExtension<TSpecialization>
 		where TSpecialization : IApplicationSpecialization

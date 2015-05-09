@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Simplex.Apllication
+namespace Simplex.Application
 {
     public interface IApplicationStartEvent<TSpecialization> : IApplicationEvent<TSpecialization>
 		where TSpecialization : IApplicationSpecialization

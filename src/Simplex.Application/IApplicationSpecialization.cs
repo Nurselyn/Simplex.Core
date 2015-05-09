@@ -2,7 +2,7 @@
 using Simplex.Service;
 using System;
 
-namespace Simplex.Apllication
+namespace Simplex.Application
 {
     public interface IApplicationSpecialization : ISpecialization
 	{

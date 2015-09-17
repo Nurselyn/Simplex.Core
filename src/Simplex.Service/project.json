@@ -1,13 +1,13 @@
 ﻿{
-    "version": "0.0.1-apex",
-    "authors": [ "ggrnd0@gmail.com" ],
+  "version": "0.0.1-apex",
+  "authors": [ "ggrnd0@gmail.com" ],
 
-    "dependencies": {
-        "System.Runtime": "4.0.20-beta-22830"
-    },
+  "dependencies": {
+    "System.Runtime": "4.0.21-beta-23302",
+    "Microsoft.Bcl": "1.1.9"
+  },
 
-    "frameworks": {
-        "dnx451": { },
-        "dnxcore50": { }
-    }
+  "frameworks": {
+    "dnxcore50": { }
+  }
 }
